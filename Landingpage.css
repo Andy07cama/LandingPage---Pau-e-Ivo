@@ -2,73 +2,139 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #fff;
-}
-
-header {
+  }
+  
+  .inicio {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    background-color: #fff;
-}
-
-header img {
-    height: 40px;
-    margin-right: 10px;
-}
-
-.logo-text {
-    color: #0b568a;
-    margin: 0;
-}
-
-/* HERO */
-.hero {
+    padding: 40px 60px;
     background: linear-gradient(to right, #0b568a, #0d8bbf);
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 40px 20px;
     flex-wrap: wrap;
-    text-align: center;
-}
-
-.hero-left, .hero-center, .hero-right {
+  }
+  
+  .inicio-izquierda, .inicio-centro, .inicio-derecha {
     flex: 1;
     min-width: 250px;
-    padding: 10px;
-}
-
-.hero-left h1 {
-    font-size: 26px;
-    margin-bottom: 20px;
-}
-
-.hero-right p {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.steps {
-    font-size: 14px;
-    line-height: 1.8;
-}
-
-.btn {
-    background-color: white;
-    color: #0b568a;
-    padding: 12px 25px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Texto izquierda */
+  .inicio-izquierda h1 {
+    font-size: 34px;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  /* Botón */
+  .btn {
+    background-color: #17C40E;
+    color: #ffffff;
+    padding: 14px 30px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
     font-weight: bold;
-}
-
-.btn:hover {
-    background-color: #f0f0f0;
-}
-
-.hero-center img {
-    max-width: 250px;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #17C40E;
+  }
+  
+  /* Imagen del pelado */
+  .inicio-centro img {
+    max-width: 280px;
     height: auto;
-}
+  }
+  
+  /* Texto derecha */
+  .inicio-derecha p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+/* PANTALLA 2 - ¿Cómo funciona? */
+.funciona {
+    background: #fff;
+    padding: 60px 20px;
+  }
+  
+  .funciona h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #0b568a;
+  }
+  
+  .funciona h2 span {
+    font-weight: bold;
+    color: #0b568a;
+  }
+  
+  .funciona-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .funciona-izquierda ul {
+    list-style: none;
+    text-align: left;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .funciona-izquierda ul li {
+    margin-bottom: 15px;
+  }
+  
+  .funciona-derecha {
+    text-align: right;
+  }
+  
+  .similitud {
+    background-color: #17C40E;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+  /* PANTALLA 3 - Empresas que confían */
+.empresas {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .empresas h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #0b568a;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .logos img {
+    max-height: 50px;
+    width: auto;
+    object-fit: contain;
+  }
+  
