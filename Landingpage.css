@@ -138,3 +138,105 @@ body {
     object-fit: contain;
   }
   
+  /* PANTALLA 4 - Lanzamiento */
+.lanzamiento {
+    background: #2c3e50;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .lanzamiento-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .lanzamiento h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #ecf0f1;
+  }
+  
+  .contador {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .time {
+    text-align: center;
+  }
+  
+  .number {
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #bdc3c7;
+  }
+  
+  .separador {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* PANTALLA 5 - Store */
+.store {
+    background: #fdfdfd;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .store-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .store-header p {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .store-items {
+    background: #0e4361;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    position: relative;
+  }
+  
+  .item img {
+    max-width: 150px;
+    border-radius: 8px;
+  }
+  
+  .sale {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 50%;
+  }
+  
