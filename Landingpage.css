@@ -240,3 +240,118 @@ body {
     border-radius: 50%;
   }
   
+  /* PANTALLA 6 - Pricing */
+.pricing {
+    background: #fdfdfd;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .pricing-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-header p {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 240px;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .plan h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .plan .price {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .plan .price span {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .plan ul li {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  
+  .current {
+    margin-top: 15px;
+    color: #999;
+    font-weight: bold;
+  }
+  
+  .buy-btn {
+    background: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .buy-btn:hover {
+    background: #009624;
+  }
+  
+  /* Colores de cada plan */
+  .basic {
+    border: 1px solid #ccc;
+  }
+  
+  .standard {
+    background: #0e4361;
+    color: white;
+  }
+  
+  .premium {
+    background: #0e4361;
+    color: white;
+  }
+  
+  /* Plan recomendado */
+  .recommended {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
