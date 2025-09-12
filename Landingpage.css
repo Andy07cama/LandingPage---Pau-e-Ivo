@@ -100,13 +100,16 @@ body {
 .pantalla2-contenido h2 {
   font-size: 36px;
   color: #0b568a;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
+  margin-top: 10px;
 }
 
-.pantalla2-contenido p {
-  font-size: 18px;
-  color: #444;
-  margin-bottom: 50px;
+.imagen-box p {
+  color: #333;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+
 }
 
 .pantalla2-imagenes {
@@ -138,8 +141,8 @@ body {
 }
 
 .imagen-box p {
-  color: #555;
-  font-size: 15px;
+  color: #000;
+  font-size: 25px;
 }
 
   /* PANTALLA 3*/
@@ -220,56 +223,55 @@ body {
     color: white;
   }
   
-  /* PANTALLA 5*/
+/* PANTALLA 5 */
 .store {
-    background: #fdfdfd;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  .store-header h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #2c3e50;
-    margin-bottom: 10px;
-  }
-  
-  .store-header p {
-    font-size: 16px;
-    color: #2c3e50;
-    margin-bottom: 30px;
-  }
-  
-  .store-items {
-    background: #0e4361;
-    border-radius: 12px;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .item {
-    position: relative;
-  }
-  
-  .item img {
-    max-width: 150px;
-    border-radius: 8px;
-  }
-  
-  .sale {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    background: red;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    padding: 6px 10px;
-    border-radius: 50%;
-  }
+  background: #fdfdfd;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.store-header h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+
+.store-header p {
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.store-items {
+  background: #0e4361;
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  flex-wrap: wrap;
+}
+
+.item {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.item img {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.item .sale {
+  position: absolute;
+  top: -25px;   
+  left: -25px;  
+  width: 80px;  
+  height: auto;
+}
   
   /* PANTALLA 6*/
 .pricing {
@@ -279,16 +281,17 @@ body {
   }
   
   .pricing-header h2 {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     color: #2c3e50;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   .pricing-header p {
-    font-size: 15px;
-    color: #444;
-    margin-bottom: 40px;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 50px;
+    font-weight: bold;
   }
   
   .pricing-plans {
@@ -306,13 +309,21 @@ body {
     text-align: center;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
     position: relative;
+    font-weight: bold;
   }
   
   .plan h3 {
     font-size: 18px;
     margin-bottom: 10px;
+    font-weight: bold;
   }
   
+  .plan .price2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
   .plan .price {
     font-size: 26px;
     font-weight: bold;
@@ -321,29 +332,38 @@ body {
   
   .plan .price span {
     font-size: 14px;
-    color: #555;
+    color: #000000;
+    font-weight: bold;
   }
-  
+  .plan .price2 span {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
   .plan ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
     text-align: left;
+    font-weight: bold;
   }
   
   .plan ul li {
     margin: 8px 0;
     font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
   
   .current {
-    margin-top: 15px;
-    color: #999;
+    margin-top: 30px;
+    color: #6A6A6A;
     font-weight: bold;
   }
   
   .buy-btn {
-    background: #00c853;
+    background: #17C40E;
     color: white;
     border: none;
     padding: 10px 25px;
@@ -354,7 +374,7 @@ body {
   }
   
   .buy-btn:hover {
-    background: #009624;
+    background: #17C40E;
   }
 
   .basic {
