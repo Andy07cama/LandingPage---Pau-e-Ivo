@@ -4,13 +4,56 @@ body {
   background-color: #fff;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;             
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  margin-right: 60px;  
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #0099ff;
+}
+
+header nav .btn-nav {
+  background: #0B4B64;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
 .inicio {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   height: 100vh;
   padding: 0 60px; 
-  background: linear-gradient(to right, #0b568a, #0d8bbf);
+  background: linear-gradient(to bottom, #0b568a, #0d8bbf);
   color: white;
   position: relative; 
   overflow: hidden;   
@@ -84,6 +127,7 @@ body {
   font-size: 18px;
   line-height: 1.6;
   text-align: left;
+  margin-top: 300px;
 }
   
 /*PANTALLA 2*/
