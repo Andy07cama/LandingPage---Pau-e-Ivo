@@ -446,3 +446,12 @@ header nav .btn-nav {
     font-weight: bold;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+  /* --- Ajuste para que el contador no quede tapado por el header fijo --- */
+  .lanzamiento {
+  scroll-margin-top: 100px; /* cambia 100px si tu header mide más o menos */
+  }
+
+  
