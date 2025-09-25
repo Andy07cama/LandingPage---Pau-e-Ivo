@@ -218,32 +218,62 @@ header.on-hero .logo-blanco {
   font-size: 25px;
 }
 
-  /* PANTALLA 3*/
+/* PANTALLA 3 */
 .empresas {
-    background: #F9FAF6;
-    text-align: center;
-    padding: 50px 20px;
-  }
-  
-  .empresas h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    color: #2C3E50;
-  }
-  
-  .logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .logos img {
-    max-height: 50px;
-    width: auto;
-    object-fit: contain;
-  }
+  background: #F9FAF6;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.empresas h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #2C3E50;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logos {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logos-track {
+  display: flex;
+  gap: 80px; 
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.logos img {
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  color: #2C3E50;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.arrow:hover {
+  color: #0B4B64;
+}
   
   /* PANTALLA 4*/
 .lanzamiento {
