@@ -1,15 +1,5 @@
-const diasInicial = 122;
-const horasInicial = 9;
-const minutosInicial = 12;
-const segundosInicial = 18;
-
-const tiempoTotal =
-  (diasInicial * 24 * 60 * 60) +
-  (horasInicial * 60 * 60) +
-  (minutosInicial * 60) +
-  segundosInicial;
-
-const fechaFinal = new Date().getTime() + (tiempoTotal * 1000);
+// Fecha final absoluta (puedes cambiarla a la que quieras)
+const fechaFinal = new Date("Jan 1, 2026 00:00:00").getTime();
 
 function actualizarTimer() {
   const ahora = new Date().getTime();
@@ -36,4 +26,4 @@ function actualizarTimer() {
 }
 
 const intervalo = setInterval(actualizarTimer, 1000);
-actualizarTimer(); 
+actualizarTimer();
