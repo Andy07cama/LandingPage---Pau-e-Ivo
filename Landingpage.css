@@ -274,6 +274,20 @@ header.on-hero .logo-blanco {
 .arrow:hover {
   color: #0B4B64;
 }
+
+/* Estado inicial oculto (pantalla 2) */
+.pantalla2 {
+  opacity: 0;
+  transform: translateY(300px); /* arranca más abajo */
+  transition: opacity 1.5s cubic-bezier(0.25, 1.5, 0.5, 1),
+              transform 1.5s cubic-bezier(0.25, 1.5, 0.5, 1);
+}
+
+/* Cuando aparece en pantalla */
+.pantalla2.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
   
   /* PANTALLA 4*/
 .lanzamiento {
